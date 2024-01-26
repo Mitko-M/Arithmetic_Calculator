@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="logic.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="calc-container">
+        <label for="calc-input">Add space between every symbol</label>
+        <input id="calc-input" type="text" placeholder="2 + 2" disabled>
+        <div id="calc-buttons">
+            <button id="0" onclick="addNum(this.id)">0</button>
+            <button id="1" onclick="addNum(this.id)">1</button>
+            <button id="2" onclick="addNum(this.id)">2</button>
+            <button id="3" onclick="addNum(this.id)">3</button>
+            <button id="4" onclick="addNum(this.id)">4</button>
+            <button id="5" onclick="addNum(this.id)">5</button>
+            <button id="6" onclick="addNum(this.id)">6</button>
+            <button id="7" onclick="addNum(this.id)">7</button>
+            <button id="8" onclick="addNum(this.id)">8</button>
+            <button id="9" onclick="addNum(this.id)">9</button>
+            <button id="-" onclick="addNum(this.id)">-</button>
+            <button id="+" onclick="addNum(this.id)">+</button>
+            <button id="/" onclick="addNum(this.id)">/</button>
+            <button id="*" onclick="addNum(this.id)">*</button>
+            <button id="=" onclick="Calculate()">=</button>
+        </div>
+    </div>
+    <button id="clear" onclick="InputClear()" hidden>Clear</button>
+    <button id="back-space" onclick="BackSpace()" hidden>Backspace</button>
+</body>
+</html>
