@@ -43,15 +43,6 @@ body {
     border-radius: 5px;
 }
 
-label {
-    color: black;
-    background-color: wheat;
-    padding: 5px;
-    border-radius: 5px;
-    text-align: center;
-}
-
-
 #calc-buttons button:hover {
     background-color: wheat;
     cursor: pointer;
